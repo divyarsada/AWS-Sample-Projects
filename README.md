@@ -27,7 +27,7 @@ Creating a Cloud Formation template to setup the infrasturce needed to deploy an
 * Servers on which the application is running on a certain port should be open in the inbound security group rule attached to the server.To access the application
 * User data script defining the required dependencies to be installed during the bootstraping of the servers
 
-###This project conatins the following files
+### This project conatins the following files
 
 * HighAvailablity-Webapp.yml:CloudFormation code using this YAML template for building the cloud infrastructure
 * HighAvailablity-Webapp-Parameters.json: JSON file for increasing the generic nature of the YAML code. For example, the JSON file contains a "ParameterKey" as "EnvironmentName" and "ParameterValue" as "NameofProject".
